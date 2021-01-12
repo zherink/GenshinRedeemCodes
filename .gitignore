@@ -1,3 +1,10 @@
+# Other
+.DS_Store
+genshin.html
+genshin_files/
+used_keys.txt
+virt_env/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
