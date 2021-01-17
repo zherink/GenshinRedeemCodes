@@ -62,6 +62,11 @@ for code in tmp:
     except:
         print('could not send message to Adam')
 
+    try:
+        server.sendmail(email_sender, os.getenv('ETEXT_MOE'), sms)
+    except:
+        print('could not send message to Adam')
+
     f.write(code + '\n')
 
 f.close()
